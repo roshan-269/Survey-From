@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Survey Form</h1>
+    <div class="content">
+      <form class="form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" required>
+        </div>
+
+        <div class="form-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" required>
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender">Male</input>
+          <input type="radio" name="gender">Female</input>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" required>
+        </div>
+
+        <div class="form-group">
+          <label for="clg-name">Collage Name</label>
+          <input type="text" required>
+        </div>
+
+        <div class="form-group">
+          <label for="course">Course</label>
+          <select required>
+            <option hidden>Select Course</option>
+            <option value="BSc Computer Science">BSc Computer Science</option>
+            <option value="BSc Information Technology">BSc Information Technology</option>
+            <option value="BSc Electronics and Communication">BSc Electronics and Communication</option>
+            <option value="BSc Mechanical Engineering">BSc Mechanical Engineering</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="hobbies">Hobbies:</label>
+          
+          <label class="hobbies-l"><input type="checkbox" id="reading"> Reading</label>
+          <label class="hobbies-l"><input type="checkbox" id="painting"> Painting</label>
+          <label class="hobbies-l"><input type="checkbox" id="playing"> Playing</label>
+          <label class="hobbies-l"><input type="checkbox" id="cooking"> Cooking</label>
+          <label class="hobbies-l"><input type="checkbox" id="gardening"> Gardening</label>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 Roshan Zaveri. All rights reserved.</p>
+    <a href="#">My GitHub Account</a> |
+    <a href="#">Project Repository</a> |
+    <a href="#">My Website</a>
+    <p>Made by Roshan Zaveri</p>
+  </footer>
+</body>
+
+</html>
